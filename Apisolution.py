@@ -5,6 +5,7 @@ import configparser
 import logging
 from flask_restx import Api, Resource, fields
 
+import configparser
 app = Flask(__name__)
 CORS(app)
 api = Api(app, version='1.0', title='Login API',
