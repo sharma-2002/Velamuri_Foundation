@@ -12,7 +12,7 @@ def Login():
     #conn = connection.cursor()
     #conn.execute('select * from users1')
     #row = conn.fetchall()
-    data = 'bharadwaj'
+    data = 'github'
     return jsonify(data)
 
 
